@@ -1,38 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
 .App {
-  text-align: center;
+  border: 1px solid rgb(255, 197, 197);
+  border-radius: 15px;
+  box-shadow: 3px 5px 15px rgb(247, 195, 195);
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Dancing Script", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.text {
+  font-size: 30px;
+  font-weight: 400;
+}
+.btn {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: rgb(211, 211, 211);
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.inp {
+  border: 1px solid black;
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+  padding: 5px;
+  color: grey;
+}
+.btn:hover {
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.but {
+  border: 1px solid black;
+  border-radius: 0 10px 10px 0;
+}
+.hr {
+  margin-top: 10px;
+}
+li {
+  padding-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overline {
+  text-decoration: line-through;
+}
+.header {
+  text-align: center;
+  padding: 30px;
+  color: rgba(253, 193, 193, 0.432);
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+.marg {
+  margin: 0 5px;
+}
+.filter {
+  margin-top: 40px;
 }
